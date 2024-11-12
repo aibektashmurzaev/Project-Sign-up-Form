@@ -3,9 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    Hellou does it work?
+    <div class="main">
+        <div class="left">
+            <div class="image">
+                <div class="transparent">
+                    <h1>ODIN</h1>
+                </div>
+            </div>
+            <div class="left-footer">
+                <p class="text-footer">
+                    Photo by <a class="link-footer" href="">Hallie West</a> on
+                    <a class="link-footer" href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">
+                        Unsplash
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="first">
+                <h3>
+                    This is not a real online service! You know you
+                    need something <br> like this in your life to help
+                    you realize your deepest dreams. <br>
+                    Sign up <em>now</em> to get started. <br>
+                    <br>
+                    You <em>know</em> you want to.
+                </h3>
+            </div>
+
+            <div class="second">
+                <h3>Let's do this!</h3>
+                <form  action="#" method="get">
+                    <div class="form-main">
+                    <div class="form-divs">
+
+                        <div class="form-div">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+
+                        <div class="form-div">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+
+                        <div class="form-div">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                    </div>
+
+                    <div class="form-divs">
+
+                        <div class="form-div">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+
+                        <div class="form-div">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="tel" id="phone_number" name="phone_number">
+                        </div>
+
+                        <div class="form-div">
+                            <label for="password">CONFIRM PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="third">
+                    <button class="button" type="submit">Create Account</button>
+                </div>
+                </form>
+
+                <div class="hyperlink">
+                    <p>Already have an account? <a class="login" href="">Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
